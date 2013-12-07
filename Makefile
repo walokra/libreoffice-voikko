@@ -241,7 +241,7 @@ else
 ifeq "$(PLATFORM)" "macosx"
 		$(LINK) $(COMP_LINK_FLAGS) $(LINK_LIBS) -o $@ $^ \
 		$(CPPUHELPERLIB) $(CPPULIB) $(SALLIB) $(CPPUHELPERDYLIB) $(CPPUDYLIB) $(SALDYLIB) \
-		-lvoikko
+		$(LIBVOIKKO_PATH)/lib/libvoikko.a
 		$(INSTALL_NAME_URELIBS)  $@
 else
 		$(LINK) $(LINK_FLAGS) $^ -o $@ $(LINK_LIBS)

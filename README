@@ -26,7 +26,7 @@ Porting status
 - Linux: This is the primary development platform, and should always work
 - FreeBSD: Status unknown
 - Windows: Should usually work without too much patching.
-- Mac OS X: Version 10.5 (Intel) was supported, current status unknown.
+- Mac OS X: Version 10.6 or newer (Intel) should work. Known to work in 10.9.
 
 
 Build requirements
